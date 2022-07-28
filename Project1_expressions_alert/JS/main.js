@@ -54,3 +54,4 @@ document.write(" ");
 document.write(wishPet);
 //Displays text for variable "wishPet"
 
+
