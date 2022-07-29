@@ -37,3 +37,10 @@ function my_poem_function() {
     poem += " And sorry I could not travel both";
     document.getElementById("poetry").innerHTML = poem;
 }
+
+//Did pretty much the same as previous function except included a double click
+function my_broken_function() {
+    var broke = "You broke it";
+    broke += " now how will we get back?";
+    document.getElementById("poetry").innerHTML = broke;
+}

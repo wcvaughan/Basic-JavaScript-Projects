@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html>
+        <head><script src ="JS/main.js"></script></head>
+
+        <body>
+
+            <h1>Math functions</h1>
+            
+            <div>
+                <p id="picard" onclick="makeItSo()">
+
+                    <img src="images/picard.jpeg">
+
+                </p>
+
+                <!--This element uses a JS function where mouseover the text element calls teh function "doMath()"-->
+                <p id="Math" onmouseover="doMath()" onmousewheel="reDo()">
+                
+                    Math
+                
+                </p>
+
+                <!--clicking the element here calls the function "increMent()"-->
+                <p id="doItonce" onclick="increMent()">
+
+                    <img src="images/minihotdog.jpeg">
+
+                </p>
+
+                <p id="doIttwice">
+                
+                    <img src="images/mustarddog.jpeg">
+                
+                </p>
+                
+                <!--This element uses a JS function where when mouse enters the element it calls the function "doSubtract()"-->
+                <p id="Math2" onmouseenter="doSubtract()">
+                
+                    DON'T DO IT
+
+                </p>
+                
+                <!--On dragging the image the function is called-->
+                <p id="Math3" ondragleave="divideIt()">
+                    <img src="images/oldfuturama.jpeg">
+                </p>
+
+                <!--Double clicking the image will call the function "multibear"-->
+                <p id="psychicTandemWarElephant" ondblclick="multiBear()">
+
+                    <img src="images/thumb2.jpeg">
+                
+                </p>
+                
+                <!--Double clikcing the GIF will call the function "warrenAmpersand()"-->
+                <p id="Jake" ondblclick="warrenAmpersand()">
+               
+                    <img src="images/giphy.gif">
+
+                </p>
+                <!--On dragging the image the function is called-->
+                <p id="generateMe" ondrag="returnRandom()">
+
+                    <img src="images/deer.gif">
+
+                </p>
+
+                <p id="runningOutofIDEAS" onclick="letUsMath()">
+                
+                    <img src="images/danceJake.gif">
+
+                </p>
+            </div>
+        
+        </body>
+    </html>
